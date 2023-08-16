@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      input {
+        display: block;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Faça o seu login</h1>
+    </div>
+    <div>
+      <form id="form-login">
+        E-mail:
+        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail..." required />
+        Senha:
+        <input type="password" id="senha" name="senha" placeholder="Digite a sua senha..." required />
+
+        <button type="submit">Login</button>
+        <button type="reset">Resetar</button>
+        <button type="button">Cadastre-se</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
